@@ -1,6 +1,6 @@
 const promise = err => new Promise((resolve, reject) => {
   if(err) return reject(new Error(err));
-  setImmediate(resolve(1));
+  setImmediate(() => resolve(1));
 });
 
 promise()
