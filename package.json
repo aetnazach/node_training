@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/jest --runTestsByPath=5_testing"
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +13,6 @@
     "xml2js": "^0.4.23"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^7.0.1"
+    "jest": "^25.1.0"
   }
 }
